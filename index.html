@@ -2,32 +2,31 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="./assets/img/h1.png" />
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/img/h1.png">
+  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <!-- =====BOX ICONS===== -->
-  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
-  <!--===== SCROLL REVEAL =====-->
-  <script src="https://unpkg.com/scrollreveal"></script>
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet">
   <title>Nkwazi Community School</title>
+  <!-- Add the Scroll Reveal library -->
+  <script src="https://unpkg.com/scrollreveal@4.0.7/dist/scrollreveal.min.js"></script>
+  <style>
+    /* Add your custom CSS styles here */
+  </style>
 </head>
 
 <body>
-  <!--===== HEADER =====-->
+  <!-- Header -->
   <header class="l-header">
     <nav class="nav bd-grid">
-
       <div class="nav-menu" id="nav-menu">
         <ul class="nav-list">
           <li class="nav-item">
             <a href="#home" class="nav-link home active">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#about" class="nav-link about">about</a>
+            <a href="#about" class="nav-link about">About</a>
           </li>
           <li class="nav-item">
             <a href="#skills" class="nav-link skills">Skills</a>
@@ -39,7 +38,9 @@
             <a href="#contact" class="nav-link contact">Contact</a>
           </li>
           <li class="nav-item">
-          <a href = "#" onclick="myFunction()"> <img src="sumoon.png" alt="" height="20px" width="20px" style="background-color: transparent;"> </a>
+            <a href="#" onclick="myFunction()">
+              <img src="sumoon.png" alt="Sun Icon" height="20px" width="20px">
+            </a>
           </li>
         </ul>
       </div>
@@ -51,268 +52,173 @@
   </header>
 
   <main class="l-main">
-    <!--===== HOME =====-->
+    <!-- Home Section -->
     <section class="home bd-grid section" id="home">
-  <div class="home-data">
-    <h2 class="home-title" id="nameContainer"></h2>
-    <div class="loading-animation" id="loadingAnimation"></div>  
-  </div>
-    </section>
-
-        <a href="https://www.paypal.com/donate/buttons" target="_blank"
-          class="button">Donate</a>
-
-      </div>
-
-      <div class="home-social">
-        <a href="" target="_blank" class="home-social-icon"><i
-            class="bx bxl-facebook"></i></a>
-        <a href="" target="_blank" class="home-social-icon"><i
-            class="bx bxl-twitter"></i></a>
-      </div>
-
-      <div class="home-img">
-        <img src="profile.gif" alt="" />
+      <div class="home-data">
+        <h2 class="home-title" id="nameContainer"></h2>
+        <div class="loading-animation" id="loadingAnimation"></div>
       </div>
     </section>
 
-    <!--===== ABOUT =====-->
+    <!-- Donate Button -->
+    <section class="section">
+      <a href="https://www.paypal.com/donate/buttons" target="_blank" class="button">Donate</a>
+    </section>
+
+    <!-- About Section -->
     <section class="about section" id="about">
-      <h2 class="section-title">about</h2>
-
+      <h2 class="section-title">About</h2>
       <div class="about-container bd-grid">
         <div class="about-img">
-          <img src="00100sPORTRAIT_00100_BURST20230712101112466_COVER~3.jpg" alt="" />
+          <img src="00100sPORTRAIT_00100_BURST20230712101112466_COVER~3.jpg" alt="School Building">
         </div>
-
-        <div style="text-align: center">
+        <div>
           <h2 class="about-subtitle">Welcome to Nkwazi Community School</h2>
           <p class="about-text">
             We cater to students from Grade 1 to 7, providing quality education and holistic development. Our mission is to nurture young minds, promote creativity, and build a supportive learning community.
           </p>
-          <br />
-          
           <p>
-            Drop a mail nkwanzicommunityschecenter@gmail.com
+            Drop us an email: <a href="mailto:nkwanzicommunityschecenter@gmail.com">nkwanzicommunityschecenter@gmail.com</a>
             <i style="color: #4070f4; font-size: 1.2rem; cursor: pointer" class="bx bx-copy" id="copy"></i>
           </p>
         </div>
       </div>
     </section>
 
-
-    <!---========Education ======--->
+    <!-- Education Section -->
     <section class="education section" id="education">
       <h2 class="section-title">Education</h2>
       <div class="education-container bd-grid">
-    
         <div class="education-data">
           <div class="education-names">
-            <!-- <i class="bx bxl-html5 skills-icon"></i> -->
-            <span class="education-name">ICT with Education</span> 
-            <p class="education-platform ">Technical and Vocational Teachers' College</p>
-            <p class="education-duration ">2019 - 2022</p>
-
+            <span class="education-name">ICT with Education</span>
+            <p class="education-platform">Technical and Vocational Teachers' College</p>
+            <p class="education-duration">2019 - 2022</p>
           </div>
         </div>
-        </div>
-      <div class="education-container bd-grid">
-    
-    <div class="education-data">
-      <div class="education-names">
-        <!-- <i class="bx bxl-html5 skills-icon"></i> -->
-        <span class="education-name">Computer Science: Programming with a Purpose</span>
-        <p class="education-platform ">Coursera, Princeton University</p>
-        <p class="education-duration ">2023</p>
-
       </div>
-    </div>
-    </div>
-
-    <!--===== SKILLS =====-->
-    <section class="skills section" id="skills">
-      <h2 class="section-title">Skills</h2>
-
-      <div class="skills-container bd-grid">
-        <div>
-          <!-- <h2 class="skills-subtitle">Front-end Skills</h2> -->
-          <div class="skills-data">
-            <div class="skills-names">
-              <i class="bx bxl-html5 skills-icon"></i>
-              <span class="skills-name">HTML</span>
-            </div>
-            <!-- <div class="skills-bar skills-html"></div> 
-             <div>
-                <span class="skills-percentage">75%</span>
-              </div>  -->
-          </div>
-          <div class="skills-data">
-            <div class="skills-names">
-              <i class="bx bxl-css3 skills-icon"></i>
-              <span class="skills-name">CSS</span>
-            </div>
-             <!-- <div class="skills-bar skills-css"></div>  -->
-            <!-- <div>
-                <span class="skills-percentage">70%</span>
-              </div>  -->
-          </div>
-          <div class="skills-data">
-            <div class="skills-names">
-              <i class="bx bxl-javascript skills-icon"></i>
-              <span class="skills-name">JavaScript</span>
-            </div>
-            <!-- <div class="skills-bar skills-css"></div>  -->
-            <div>
-                <!-- <span class="skills-percentage">70%</span> -->
-              </div> 
-
-          </div>
-          <div class="skills-data">
-            <div class="skills-names">
-              <i class="bx bxl-react skills-icon"></i>
-              <span class="skills-name">python</span>
-            </div>
-            <!-- <div class="skills-bar skills-react"></div> -->
-            <div>
-                <!-- <span class="skills-percentage">50%</span> -->
-              </div>
-          
-          
-        
-          
-          </div>
-
-          <div class="skills-data">
-            <div class="skills-names">
-              <img class="skills-icon" src="" alt="" />
-              <span class="skills-name">Microsoft Excel</span>
-            </div>
-            <!-- <div class="skills-bar skills-css"></div>  -->
-            <div>
-                <!-- <span class="skills-percentage">90%</span> -->
-              </div> 
-          </div>
-          <div>
-             <!-- <h2 class="skills-subtitle">TOOLS</h2> --> 
-             <div class="skills-data">
-              <div class="skills-names">
-                <img class="skills-icon" src="github.svg" alt="" />
-                <span class="skills-name">Github</span>
-              </div>
-            </div>
-            <div class="skills-data">
-              <div class="skills-names">
-                <img class="skills-icon" src="git.png" alt="" />
-                <span class="skills-name">Git</span>
-              </div>
-
-            
-            </div> 
-
+      <div class="education-container bd-grid">
+        <div class="education-data">
+          <div class="education-names">
+            <span class="education-name">Computer Science: Programming with a Purpose</span>
+            <p class="education-platform">Coursera, Princeton University</p>
+            <p class="education-duration">2023</p>
           </div>
         </div>
+      </div>
     </section>
 
-    <!--===== Gallery =====-->
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-container bd-grid">
+        <div class="skills-data">
+          <div class="skills-names">
+            <i class="bx bxl-html5 skills-icon"></i>
+            <span class="skills-name">HTML</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-names">
+            <i class="bx bxl-css3 skills-icon"></i>
+            <span class="skills-name">CSS</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-names">
+            <i class="bx bxl-javascript skills-icon"></i>
+            <span class="skills-name">JavaScript</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-names">
+            <i class="bx bxl-react skills-icon"></i>
+            <span class="skills-name">Python</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-names">
+            <img class="skills-icon" src="microsoft-excel-icon.png" alt="Microsoft Excel Icon">
+            <span class="skills-name">Microsoft Excel</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-names">
+            <img class="skills-icon" src="github.svg" alt="GitHub Icon">
+            <span class="skills-name">GitHub</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-names">
+            <img class="skills-icon" src="git.png" alt="Git Icon">
+            <span class="skills-name">Git</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
     <section class="gallery section" id="gallery">
       <h2 class="section-title">Gallery</h2>
+      <div
 
-      <div class="gallery-container">
+  <div class="gallery-container">
+        <!-- First Gallery Item -->
         <div class="gallery-img">
-          <img src="IMG_20230901_171212~2.jpg" alt="cult.fit" />
+          <img src="IMG_20230901_171212~2.jpg" alt="School Photos">
           <p class="photos-title">Photos</p>
-          <p class="photos-subtitle">
-            More photos of the surrounding down below.
-          </p>
+          <p class="photos-subtitle">More photos of the surrounding down below.</p>
           <div class="gallery-btns">
-            
             <a href="https://photos.app.goo.gl/vLiarBtmx1FqFQ6q9" target="_blank" class="small-btn button">
               Open photos
               <!-- <i class="bx bx-link-external"></i> -->
             </a>
-            <!-- <a href="https://weddingio.netlify.app" target="_blank"
-              class="small-btn button">
-              Blog
-              <i class="bx bx-blog"></i> -->
-            </a>
           </div>
         </div>
 
-
-        <div class="project-img">
-          <img src="IMG-20230902-WA0045(1).jpg" alt="cult.fit" />
+        <!-- Second Gallery Item -->
+        <div class="gallery-img">
+          <img src="IMG-20230902-WA0045(1).jpg" alt="Teacher and Pupils">
           <p class="project-title">Photos</p>
-          <p class="project-subtitle">
-            One of our teachers delivery a lesson to the pupils, more photos below.
-          </p>
+          <p class="project-subtitle">One of our teachers delivering a lesson to the pupils, more photos below.</p>
           <div class="project-btns">
-            
             <a href="https://photos.app.goo.gl/bdfDB2nWXnJ7YT6KA" target="_blank" class="small-btn button">
               Open photos
               <!-- <i class="bx bx-link-external"></i> -->
             </a>
-            <!-- <a href="https://weddingio.netlify.app" target="_blank"
-              class="small-btn button">
-              Blog
-              <i class="bx bx-blog"></i> -->
-            </a>
           </div>
         </div>
 
-
-        <div class="project-img">
-          <img src="IMG-20230902-WA0065.jpg" alt="cult.fit" />
+        <!-- Third Gallery Item -->
+        <div class="gallery-img">
+          <img src="IMG-20230902-WA0065.jpg" alt="Pupils in Class">
           <p class="project-title">Photos</p>
-          <p class="project-subtitle">
-            More photos of pupils in class.
-          </p>
+          <p class="project-subtitle">More photos of pupils in class.</p>
           <div class="project-btns">
-            
             <a href="https://photos.app.goo.gl/DYqLUK39Gefe5dWr7" target="_blank" class="small-btn button">
               Open photos
               <!-- <i class="bx bx-link-external"></i> -->
             </a>
-            <!-- <a href="https://weddingio.netlify.app" target="_blank"
-              class="small-btn button">
-              Blog
-              <i class="bx bx-blog"></i> -->
-            </a>
-          </div>
-        </div>
-
-
-
-
           </div>
         </div>
       </div>
     </section>
   </main>
 
-  <!--===== FOOTER + CONTACT=====-->
-  
+  <!-- Footer Section -->
   <footer class="footer section" id="contact">
     <h2 class="section-title">Get in Touch</h2>
     <div class="footer-social">
-      <a href="" target="_blank" class="footer-icon"><i
-          class="bx bxl-facebook">
-          <br />
-          Facebook</i></a>
-      <a href="" target="_blank" class="footer-icon"><i class="bx bxl-twitter">
-          <br />
-          Twitter</i></a>
-      <a href="mailto: nkwanzicommunityschecenter@gmail.com" target="_blank" class="footer-icon"><i class="bx bx-mail-send">
-          <br />
-          E-mail</i></a>
-      <a href="tel:+260979914561" target="_blank" class="footer-icon"><i class="bx bx-phone">
-          <br />
-          Phone</i></a>
-      
+      <a href="" target="_blank" class="footer-icon"><i class="bx bxl-facebook"></i><br>Facebook</a>
+      <a href="" target="_blank" class="footer-icon"><i class="bx bxl-twitter"></i><br>Twitter</a>
+      <a href="mailto:nkwanzicommunityschecenter@gmail.com" target="_blank" class="footer-icon"><i class="bx bx-mail-send"></i><br>E-mail</a>
+      <a href="tel:+260979914561" target="_blank" class="footer-icon"><i class="bx bx-phone"></i><br>Phone</a>
     </div>
     <p>&#169; 2023</p>
   </footer>
 
-  <!--===== MAIN JS =====-->
+  <!-- Main JavaScript -->
   <script src="main.js"></script>
 </body>
- </html>
+
+</html>
